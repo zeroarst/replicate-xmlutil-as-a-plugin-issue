@@ -1,7 +1,7 @@
 
 plugins {
     kotlin("jvm")
-    // id("com.zeroarst.xmlutil")
+    id("com.zeroarst.xmlutil")
 }
 
 
