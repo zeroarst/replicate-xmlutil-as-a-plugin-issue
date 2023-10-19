@@ -1,18 +1,14 @@
 group = property("GROUP").toString()
 version = property("VERSION").toString()
 
-buildscript {
-    println("build.gradle.kts => buildscript (${name})")
-}
 
 plugins {
-    println("build.gradle.kts => plugins (test-composite-build)")
+    println("build.build.gradle.kts => plugins (test-composite-build)")
     kotlin("jvm") version "1.9.0"
     // `kotlin-dsl`
     `java-gradle-plugin`
 }
 
-println("build.gradle.kts (${name})")
 
 group = "com.zeroarst"
 version = "0.0.1"
